@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #e3e3e3;
+  background: #f0fd00;
 }
 
 
@@ -34,15 +34,15 @@ header {
 }
 
 #column-1 {
-  background: #ea8080;
+  background: #cb6666;
 }
 
-#column-2 {
-  background: #9ff69f;
+#column-2{
+  background: #5ecb86;
 }
 
-#column-3 {
-  background: #91cbfe;
+#column-3{
+  background: #7ea8f5;
 }
 
 
@@ -51,57 +51,65 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #e3e3e3;
+  background: #320c0c;
 }
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
+/* Change the colors below */
 
 @media (min-width: 768px) {
   header {
-    background-color: rgb(151, 13, 77);
+    background-color: rgb(181, 191, 0);
   }
 
   #column-1 {
-    background-color: rgb(5, 60, 115);
+    background-color: #e3a844;
   }
 
   #column-2 {
-    background-color: rgb(83, 107, 79);
+    background-color: rgb(238, 148, 227);
   }
 
   #column-3 {
-    background-color: rgb(255, 128, 0);
+    background-color: rgb(4, 255, 0);
+    width: 100%;
   }
 
   footer {
-    background-color: rgb(193, 14, 14);
+    background-color: rgb(1, 76, 104);
   }
-  
+
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: rgb(207, 129, 246);
+    background-color: rgb(214, 243, 176);
   }
 
   #column-1 {
-    background-color: rgb(34, 207, 255);
+    background-color: rgb(49, 138, 67);
   }
 
   #column-2 {
-    background-color: rgb(243, 147, 95);
+    background-color: rgb(126, 0, 164);
   }
 
   #column-3 {
-    background-color: rgb(246, 246, 124);
+    background-color: rgb(250, 67, 0);
+    width: 33.3%;
   }
 
   footer {
-    background-color: rgb(135, 203, 8);
+    background-color: rgb(51, 0, 255);
   }
-   
+
+  .col-3 {
+    width: 33.3%;
+  }
 }
